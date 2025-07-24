@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeFlix - Application de Films</title>
+    <link rel="stylesheet" href="movieApp.css">
+    </head>
+<body>
+    <div class="container">
+        <!-- En-tête centré -->
+        <header class="header" id="main-header">
+            <h1 class="logo" id="logo-title">VibeFlix</h1>
+        </header>
+
+        <!-- Section de recherche -->
+        <section class="search-section" id="search-section">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="movie-search-input"
+                    placeholder="Rechercher des films..."
+                    aria-label="Rechercher des films"
+                >
+                <button class="search-button" id="search-button" aria-label="Rechercher">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        
+
+        <!-- Grille de cartes de films -->
+        <main class="movies-grid" id="movies-grid">
+            <!-- Carte de film 1 -->
+            <article class="movie-card" id="movie-card-1">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/333/fff?text=Film+1" alt="Affiche du film 1" id="poster-1">
+                    <div class="movie-overlay" id="overlay-1">
+                        <button class="play-button" id="play-button-1" aria-label="Lire le film 1">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-1">Film Mystérieux</h3>
+                    <div class="movie-rating" id="rating-1">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-number">8.5</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte de film 2 -->
+            <article class="movie-card" id="movie-card-2">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/444/fff?text=Film+2" alt="Affiche du film 2" id="poster-2">
+                    <div class="movie-overlay" id="overlay-2">
+                        <button class="play-button" id="play-button-2" aria-label="Lire le film 2">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-2">Action Épique</h3>
+                    <div class="movie-rating" id="rating-2">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-number">9.2</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte de film 3 -->
+            <article class="movie-card" id="movie-card-3">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/555/fff?text=Film+3" alt="Affiche du film 3" id="poster-3">
+                    <div class="movie-overlay" id="overlay-3">
+                        <button class="play-button" id="play-button-3" aria-label="Lire le film 3">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-3">Comédie Romantique</h3>
+                    <div class="movie-rating" id="rating-3">
+                        <span class="stars">★★★☆☆</span>
+                        <span class="rating-number">7.8</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte de film 4 -->
+            <article class="movie-card" id="movie-card-4">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/666/fff?text=Film+4" alt="Affiche du film 4" id="poster-4">
+                    <div class="movie-overlay" id="overlay-4">
+                        <button class="play-button" id="play-button-4" aria-label="Lire le film 4">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-4">Thriller Psychologique</h3>
+                    <div class="movie-rating" id="rating-4">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-number">8.7</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte de film 5 -->
+            <article class="movie-card" id="movie-card-5">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/777/fff?text=Film+5" alt="Affiche du film 5" id="poster-5">
+                    <div class="movie-overlay" id="overlay-5">
+                        <button class="play-button" id="play-button-5" aria-label="Lire le film 5">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-5">Science-Fiction</h3>
+                    <div class="movie-rating" id="rating-5">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-number">9.5</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte de film 6 -->
+            <article class="movie-card" id="movie-card-6">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/888/fff?text=Film+6" alt="Affiche du film 6" id="poster-6">
+                    <div class="movie-overlay" id="overlay-6">
+                        <button class="play-button" id="play-button-6" aria-label="Lire le film 6">▶</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title" id="title-6">Drame Historique</h3>
+                    <div class="movie-rating" id="rating-6">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-number">8.3</span>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <script src="movieApp.js"></script>
+</body>
+</html>
