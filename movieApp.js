@@ -1,5 +1,5 @@
 // Constantes API
-const TMDB_API_KEY = 'fd06120cbae486a0b6ac8d55fa86862b';
+const TMDB_API_KEY = 'YOUR_API_KEY';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p/w500';
 
